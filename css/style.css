@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+/**/
+.containerGlobal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerGlobal .containerOne {
+    margin: 30px;
+    width: 370px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+.containerGlobal .containerOne .face {
+    margin-top: 100px;
+}
+.containerGlobal .containerOne .face h1 {
+    color: #1877f2;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.containerGlobal .containerOne p {
+    font-size: 23px;
+    font-weight: lighter;
+}
+/**/
+.containerTwo {
+    margin: 30px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    width: 370px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.containerTwo .contCont {
+    margin: 10px;
+    margin-block-end: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    color: #1877f2;
+}
+.containerTwo .contCont p:hover {
+    text-decoration: underline;
+}
+.containerTwo .contContOne {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerTwo .contContOne input {
+    margin-top: -7px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #42b72a;
+}
+.containerTwo .cont {
+    padding: 7px;
+    width: 385px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 1em #cfcfcf;
+    background-color: #ffffff;
+}
+.containerTwo .cont .signIn {
+    border: none;
+    font-weight: bolder;
+    background-color: #1877f2;
+    cursor: pointer;
+    color: #ffffff; 
+}
+.containerTwo .cont input {
+    margin: 7px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+.containerTwo .contTwo {
+    text-align: center;
+    margin-top: -40px;
+    width: 385px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.containerTwo .contTwo .aContTwo {
+    cursor: pointer;
+    font-weight: bolder;
+}
+.containerTwo .contTwo .aContTwo:hover {
+    text-decoration: underline;
+}
+.containerGlobal .containerTwo .cont .hr1{
+    border: 0;
+    border-top: 1px solid #cfcfcf;
+}

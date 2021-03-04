@@ -1,0 +1,9 @@
+@media (max-width:650px) {
+    .containerGlobal {
+        flex-wrap: wrap;
+        margin-top: -50px;
+    }
+    .containerTwo {
+        margin-top: -160px;
+    }
+}
